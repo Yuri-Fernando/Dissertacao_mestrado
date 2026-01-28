@@ -23,7 +23,7 @@ implementação das métricas de erro;
 separação temporal dos conjuntos de dados;
 análise comparativa entre valores estimados e reais.
 
-A concepção metodológica, a modelagem, a validação e os resultados finais apresentados são de autoria do autor da dissertação.
+A concepção metodológica, a modelagem, a validação e os resultados finais apresentados são de autoria do autor da dissertação. sendo o reaproveitamento da base inicial devidamente citado e restrito à estrutura de organização de dados.
 
 ## Mecanismo de Funcionamento do Código: 
    - Coleta de dados de geração elétrica da ONS e IEMA.
