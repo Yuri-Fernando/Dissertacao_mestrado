@@ -1,4 +1,6 @@
-Código da Dissertação UFSCar.
+## Código da Dissertação – UFSCar
+
+Este repositório reúne os códigos desenvolvidos e utilizados ao longo do processo de pesquisa da dissertação de mestrado, incluindo versões exploratórias, testes intermediários e a implementação final utilizada para a obtenção e validação dos resultados apresentados no trabalho.
 
 Observações:
 -
@@ -10,8 +12,20 @@ Observações:
 
 Os códigos fornecem a regressão não linear por mínimos quadrados da função de emissão de CO₂ das usinas termelétricas do Brasil.
 
-Mecanismo de Funcionamento do Código: 
--
+## Nota sobre reaproveitamento de base de código
+
+A estrutura inicial de leitura e organização dos dados teve como referência uma base de código previamente desenvolvida por Giovanni Aurelio Grizante, no contexto de um projeto de iniciação científica.
+Essa base foi legitimamente reaproveitada como ponto de partida, sendo posteriormente substancialmente modificada, expandida e reestruturada para atender aos objetivos específicos desta dissertação, incluindo:
+
+definição do modelo matemático adotado;
+construção da metodologia de validação;
+implementação das métricas de erro;
+separação temporal dos conjuntos de dados;
+análise comparativa entre valores estimados e reais.
+
+A concepção metodológica, a modelagem, a validação e os resultados finais apresentados são de autoria do autor da dissertação.
+
+## Mecanismo de Funcionamento do Código: 
    - Coleta de dados de geração elétrica da ONS e IEMA.
    - Concatenação dos dados, separando apenas as usinas termelétricas, dos anos de 2020 a 2023.
    - Geração da regressão não linear por mínimos quadrados da função de emissão de CO₂.
@@ -22,8 +36,7 @@ Mecanismo de Funcionamento do Código:
    - Cálculo dos erros e geração de um gráfico 3D em função da rede neural.
    - Validação da regressão com os dados de 2020 e 2021, utilizada para calcular a emissão nos dados de 2022, comparando o resultado calculado com o real e o erro relativo.
 
-Processos para Replicação em Trabalhos Futuros:
--
+## Processos para Replicação em Trabalhos Futuros:
 - Baixar os dados da ONS e IEMA e alterar os diretorios de acesso a esses dados;
 - Realizar a instalação correta do solver Ipopt;
 - Tomar o cuidado de se ter a intersecção entre os dados, é necessario que se for considerado 3 anos ou 4 anos, as pastas devem refletir essa igualdade, pois, caso contrário, não havera concatenação de dados.
