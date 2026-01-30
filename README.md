@@ -23,11 +23,11 @@ Embora exista similaridade estrutural decorrente da base comum, as extensões re
 As rotinas relacionadas a aprendizado de máquina presentes no repositório têm caráter estritamente ilustrativo e exploratório, não sendo utilizadas nos resultados finais apresentados na dissertação. Tais trechos são devidamente reconhecidos como derivados da base original de Giovanni Aurelio Grizante e não constituem contribuição autoral desta pesquisa.
 
 A partir da base inicial, esta dissertação desenvolveu de forma independente e autoral:
-a definição do modelo matemático adotado;
-a construção da metodologia de validação;
-a implementação e análise das métricas de erro efetivamente utilizadas;
-a separação temporal dos conjuntos de dados;
-a análise comparativa entre valores estimados e valores reais.
+- a definição do modelo matemático adotado;
+- a construção da metodologia de validação;
+- a implementação e análise das métricas de erro efetivamente utilizadas;
+- a separação temporal dos conjuntos de dados;
+- a análise comparativa entre valores estimados e valores reais.
 
 A concepção metodológica, a modelagem, a validação e os resultados finais apresentados são de autoria exclusiva do autor da dissertação, sendo o reaproveitamento da base inicial devidamente citado e restrito à estrutura de organização de dados.
 
