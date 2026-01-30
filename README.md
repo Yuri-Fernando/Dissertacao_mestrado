@@ -14,16 +14,22 @@ Os códigos fornecem a regressão não linear por mínimos quadrados da função
 
 ## Nota sobre reaproveitamento de base de código
 
-A estrutura inicial de leitura e organização dos dados teve como referência uma base de código previamente desenvolvida por Giovanni Aurelio Grizante, no contexto de um projeto de iniciação científica.
-Essa base foi legitimamente reaproveitada como ponto de partida, sendo posteriormente substancialmente modificada, expandida e reestruturada para atender aos objetivos específicos desta dissertação, incluindo:
+A estrutura inicial de leitura e organização dos dados teve como referência uma base de código previamente desenvolvida por Giovanni Aurelio Grizante, no contexto de um projeto de iniciação científica inserido na mesma linha de pesquisa. Durante esse período, o referido pesquisador contribuiu pontualmente com discussões técnicas, reuniões de contextualização, indicação de fontes de dados e panorama geral da área, uma vez que sua pesquisa apresentava relação temática, com foco distinto em machine learning, utilizando TensorFlow e scikit-learn.
 
-definição do modelo matemático adotado;
-construção da metodologia de validação;
-implementação das métricas de erro;
-separação temporal dos conjuntos de dados;
-análise comparativa entre valores estimados e reais.
+O reaproveitamento dessa base ocorreu exclusivamente como ponto de partida estrutural, especialmente no que se refere à organização inicial dos dados. A partir dessa base, o código foi substancialmente modificado, expandido e reestruturado, passando a incorporar cinco pipelines distintos, desenvolvidos especificamente para os objetivos desta dissertação.
 
-A concepção metodológica, a modelagem, a validação e os resultados finais apresentados são de autoria do autor da dissertação. sendo o reaproveitamento da base inicial devidamente citado e restrito à estrutura de organização de dados.
+Embora exista similaridade estrutural decorrente da base comum, as extensões realizadas incluem, entre outros aspectos, a implementação de novas métricas de erro, como MAPE e MSRE, utilizadas em etapas exploratórias do desenvolvimento. Ressalta-se que tais métricas não integraram o escopo final da metodologia, uma vez que a métrica MSE foi adotada por garantir a convexidade da função objetivo utilizada na regressão.
+
+As rotinas relacionadas a aprendizado de máquina presentes no repositório têm caráter estritamente ilustrativo e exploratório, não sendo utilizadas nos resultados finais apresentados na dissertação. Tais trechos são devidamente reconhecidos como derivados da base original de Giovanni Aurelio Grizante e não constituem contribuição autoral desta pesquisa.
+
+A partir da base inicial, esta dissertação desenvolveu de forma independente e autoral:
+a definição do modelo matemático adotado;
+a construção da metodologia de validação;
+a implementação e análise das métricas de erro efetivamente utilizadas;
+a separação temporal dos conjuntos de dados;
+a análise comparativa entre valores estimados e valores reais.
+
+A concepção metodológica, a modelagem, a validação e os resultados finais apresentados são de autoria exclusiva do autor da dissertação, sendo o reaproveitamento da base inicial devidamente citado e restrito à estrutura de organização de dados.
 
 ## Mecanismo de Funcionamento do Código: 
    - Coleta de dados de geração elétrica da ONS e IEMA.
